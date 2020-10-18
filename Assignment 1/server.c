@@ -83,7 +83,7 @@ int main(int argc, char const *argv[])
 
     }else{
       wait(NULL);
-      printf("Child process finished.\n" );
+      printf("Child process finished.\nParent Terminating\n" );
     }
 
 
